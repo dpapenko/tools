@@ -1,4 +1,3 @@
-import React from 'react';
 import { BatteryPack } from '../data/packs';
 import { pricePerWh } from '../lib/runtime';
 
@@ -131,3 +130,4 @@ export function PricePerWh({ packs }: PricePerWhProps) {
     </div>
   );
 }
+

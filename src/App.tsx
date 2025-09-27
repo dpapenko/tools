@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { BatteryPack } from './data/packs';
 import { Tool } from './data/tools';
 import { PACKS } from './data/packs';
@@ -305,3 +305,4 @@ function App() {
 }
 
 export default App;
+

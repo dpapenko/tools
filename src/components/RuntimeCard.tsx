@@ -1,4 +1,3 @@
-import React from 'react';
 import { BatteryPack } from '../data/packs';
 import { runtimeMinutes, formatMinutes, getEffectiveWh } from '../lib/runtime';
 
@@ -88,3 +87,4 @@ export function RuntimeCard({
     </div>
   );
 }
+

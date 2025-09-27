@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { BatteryPack } from '../data/packs';
 import { socFromVoltage5S, estimateRemainingTime, getBatteryStatus } from '../lib/voltage';
 import { getEffectiveWh } from '../lib/runtime';
@@ -166,3 +166,4 @@ export function VoltageCheck({ packs, selectedPack, onSelectPack, selectedTool }
     </div>
   );
 }
+

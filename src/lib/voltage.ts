@@ -145,3 +145,4 @@ export function getBatteryStatus(voltage: number, cRate = 0): {
   
   return { soc, status, color, warning };
 }
+

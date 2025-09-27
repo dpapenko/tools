@@ -1,4 +1,3 @@
-import React from 'react';
 import { Tool } from '../data/tools';
 
 interface ToolSelectorProps {
@@ -64,3 +63,4 @@ export function ToolSelector({
     </div>
   );
 }
+

@@ -1,4 +1,3 @@
-import React from 'react';
 import { BatteryPack } from '../data/packs';
 
 interface PackSelectorProps {
@@ -67,3 +66,4 @@ export function PackSelector({ packs, selectedPack, onSelect, showPrice = true }
     </div>
   );
 }
+

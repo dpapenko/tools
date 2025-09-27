@@ -1,4 +1,3 @@
-import React from 'react';
 import { BatteryPack } from '../data/packs';
 import { Tool } from '../data/tools';
 import { runtimeMinutes, formatMinutes, pricePerWh } from '../lib/runtime';
@@ -128,3 +127,4 @@ export function ComparisonTable({ packs, tools, efficiency }: ComparisonTablePro
     </div>
   );
 }
+

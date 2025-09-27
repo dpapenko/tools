@@ -12,3 +12,4 @@ export const TOOLS: Tool[] = [
   { id: 'saw165', name: 'Циркулярка 165мм', powerW: 600 },
   { id: 'custom', name: 'Своя мощность', powerW: 0 },
 ];
+

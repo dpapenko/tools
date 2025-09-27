@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { DIYTestInput, DIYTestResult, estimateFromResistor, validateDIYTestInput, createPackFromTest, exportTestToCSV } from '../lib/diyTest';
 import { DIY_TEST_PRESETS } from '../data/socMaps';
 import { BatteryPack } from '../data/packs';
@@ -296,3 +296,4 @@ export function DIYTestWizard({ onAddPack }: DIYTestWizardProps) {
     </div>
   );
 }
+

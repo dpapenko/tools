@@ -47,3 +47,4 @@ export const DIY_TEST_PRESETS = [
     note: 'Настраиваемый'
   }
 ];
+

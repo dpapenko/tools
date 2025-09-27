@@ -184,3 +184,4 @@ export function createPackFromTest(
     note: `DIY тест: ${results.iavg.toFixed(1)}A средний, ${results.vavg.toFixed(1)}V среднее`
   };
 }
+
